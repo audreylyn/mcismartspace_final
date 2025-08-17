@@ -233,3 +233,16 @@ Automatic account lockout
 Session timeout management
 IP-based security tracking
 Enterprise-grade protection
+
+# Set your email (replace with your actual email)
+git config --global user.email "your.email@example.com"
+
+# Set your name (replace with your actual name)
+git config --global user.name "Your Name"
+
+# Check what you set
+git config --global user.email
+git config --global user.name
+
+# Or see all global config
+git config --global --list
