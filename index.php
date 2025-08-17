@@ -14,16 +14,16 @@ if (isset($_SESSION['user_id'])) {
         $role = $_SESSION['role'];
         switch ($role) {
             case 'Registrar':
-                header('Location: dashboard/registrar.php');
+                header('Location: views/manage_admins.php');
                 exit();
             case 'Department Admin':
-                header('Location: dashboard/dept_admin.php');
+                header('Location: views/dept_admin.php');
                 exit();
             case 'Teacher':
-                header('Location: dashboard/teacher.php');
+                header('Location: views/teacher.php');
                 exit();
             case 'Student':
-                header('Location: dashboard/student.php');
+                header('Location: views/student.php');
                 exit();
         }
     } else {
@@ -83,16 +83,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 // Redirect based on role
                 switch ($role) {
                     case 'Registrar':
-                        header('Location: dashboard/registrar.php');
+                        header('Location: views/manage_admins.php');
                         exit();
                     case 'Department Admin':
-                        header('Location: dashboard/dept_admin.php');
+                        header('Location: views/dept_admin.php');
                         exit();
                     case 'Teacher':
-                        header('Location: dashboard/teacher.php');
+                        header('Location: views/teacher.php');
                         exit();
                     case 'Student':
-                        header('Location: dashboard/student.php');
+                        header('Location: views/student.php');
                         exit();
                 }
                 $authenticated = true;

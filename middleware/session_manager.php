@@ -208,7 +208,7 @@ class SessionManager {
         $scriptPath = $_SERVER['SCRIPT_NAME'];
         
         // Determine base path
-        if (strpos($scriptPath, '/dashboard/') !== false) {
+        if (strpos($scriptPath, '/views/') !== false) {
             $basePath = dirname(dirname($scriptPath));
         } else {
             $basePath = dirname($scriptPath);

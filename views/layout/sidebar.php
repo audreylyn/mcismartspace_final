@@ -20,15 +20,7 @@
                     <li class="active">
                         <a href="#" aria-label="Manage Administrators">
                             <div class="icon" aria-hidden="true">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building2 flex-shrink-0">
-                                    <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
-                                    <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
-                                    <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
-                                    <path d="M10 6h4"></path>
-                                    <path d="M10 10h4"></path>
-                                    <path d="M10 14h4"></path>
-                                    <path d="M10 18h4"></path>
-                                </svg>
+                                <i class="mdi mdi-account-key mdi-24px"></i>
                             </div>
                             <div class="menu-text">
                                 <span>Manage Admins</span>
@@ -39,16 +31,7 @@
                     <li>
                         <a href="#" aria-label="Manage Buildings">
                             <div class="icon" aria-hidden="true">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
-                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                    <line x1="16" y1="2" x2="16" y2="6"></line>
-                                    <line x1="8" y1="2" x2="8" y2="6"></line>
-                                    <line x1="3" y1="10" x2="21" y2="10"></line>
-                                    <path d="M8 14h3"></path>
-                                    <path d="M14 14h3"></path>
-                                    <path d="M8 18h3"></path>
-                                    <path d="M14 18h3"></path>
-                                </svg>
+                                <i class="mdi mdi-office-building mdi-24px"></i>
                             </div>
                             <div class="menu-text">
                                 <span>Buildings</span>
@@ -59,10 +42,7 @@
                     <li>
                         <a href="#" aria-label="Manage Facilities">
                             <div class="icon" aria-hidden="true">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M12 8v4l3 3"></path>
-                                    <circle cx="12" cy="12" r="10"></circle>
-                                </svg>
+                                <i class="mdi mdi-room-service mdi-24px"></i>
                             </div>
                             <div class="menu-text">
                                 <span>Manage Facilities</span>
@@ -73,9 +53,7 @@
                     <li>
                         <a href="#" aria-label="Manage Equipment">
                             <div class="icon" aria-hidden="true">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
-                                </svg>
+                                <i class="mdi mdi-tools mdi-24px"></i>
                             </div>
                             <div class="menu-text">
                                 <span>Manage Equipments</span>

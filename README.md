@@ -158,7 +158,7 @@ smartspace/
 │   └── database.php         # Database configuration
 ├── middleware/
 │   └── auth_middleware.php  # Authentication middleware
-└── dashboard/
+└── views/
     ├── registrar.php        # Registrar dashboard
     ├── dept_admin.php       # Department admin dashboard
     ├── teacher.php          # Teacher dashboard

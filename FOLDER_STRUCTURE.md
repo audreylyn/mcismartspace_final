@@ -39,7 +39,7 @@ middleware/
 
 ## 📂 **Dashboard Pages**
 ```
-dashboard/
+views/
 ├── registrar.php          # Registrar dashboard
 ├── dept_admin.php         # Department Admin dashboard
 ├── teacher.php            # Teacher dashboard

@@ -17,14 +17,14 @@ $user = $auth->getCurrentUser();
 <body class="nav-md">
     <div class="container body">
         <div class="main_container">
-            <?php include "./layout/sidebar.php"; ?>
+            <?php include "./layout/reg_sidebar.php"; ?>
             <?php include "./layout/topnav.php"; ?>
             
             <!-- Page content -->
             <main class="right_col" role="main">
                 <article>
                     <header>
-                        <h1 class="sr-only">Registrar Dashboard</h1>
+                        <h1 class="sr-only">Manage Equipments</h1>
                     </header>
                     <section>
                         <div class="row">

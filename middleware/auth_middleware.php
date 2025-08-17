@@ -143,8 +143,8 @@ class AuthMiddleware {
         // Get the current script path and determine the base path
         $scriptPath = $_SERVER['SCRIPT_NAME'];
         
-        // If we're in a dashboard subdirectory, go up to the root
-        if (strpos($scriptPath, '/dashboard/') !== false) {
+        // If we're in a views subdirectory, go up to the root
+        if (strpos($scriptPath, '/views/') !== false) {
             $basePath = dirname(dirname($scriptPath));
         } else {
             $basePath = dirname($scriptPath);
